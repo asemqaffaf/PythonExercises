@@ -8,7 +8,7 @@
 # multiLambda =lambda a,b : a*b
 # print(multiLambda(10,22))
 # 4
-# postiveNumber = list(filter(lambda a: a>0 , range(-5,5)))
+# postiveNumber = list(filter(lambda a: a<0 , range(-5,5)))
 # print(postiveNumber)
 # 5
 # output will be 13
