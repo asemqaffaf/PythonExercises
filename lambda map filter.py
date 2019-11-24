@@ -28,7 +28,7 @@
 # [6, 8]
 # output will be [6, 8]
 # 13
-# output will be [4, 8 , 12 , 16]
+# output will be [4, 6, 8]
 # 14
 # from functools import reduce
 # x = reduce(lambda x,y :x if x<y else y,[1,2,1,1,2,2,2,2,0])
