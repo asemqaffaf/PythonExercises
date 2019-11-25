@@ -32,3 +32,5 @@ print(Employee1)
 Employee1.setAdress("USA")
 print(Employee1)
 Employee2 = Employee(2,"Hala Rana","aqaba jordan","750","manager")
+del Employee1
+del Employee2
