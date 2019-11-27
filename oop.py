@@ -25,6 +25,7 @@ class Employee:
     def __str__(self):
         output = "Employee info \n .Emplyee number: "+ str(self.empNumber) + "\n .Name "+ self.__name + "\n .Address "+ self.__address + "\n .Salary" +str( self.__salary) + "\n .Job title " + self.__jobTitle
         return output
+    
     def nonFormatedOutput(self):
         output = "Employee info  .Emplyee number: "+ str(self.empNumber) + " .Name "+ self.__name + " .Address "+ self.__address + " .Salary" +str( self.__salary) + ".Job title " + self.__jobTitle
 Employee1 = Employee(1,"mohammad Khalid","amman jordan","500","consultant")
